@@ -1,13 +1,13 @@
 {
   "name": "photon-icons",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "description": "Icons for Firefox and related properties.",
   "scripts": {
     "test": "node validate.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FirefoxUX/design-tokens.git"
+    "url": "git+https://github.com/FirefoxUX/photon-icons.git"
   },
   "keywords": [
     "firefox",
@@ -19,10 +19,10 @@
   "author": "Blake Winton <bwinton@latte.ca>",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/FirefoxUX/design-tokens/issues?q=is%3Aissue+is%3Aopen+label%3A%22tokens%3A+icons%22"
+    "url": "https://github.com/FirefoxUX/photon-icons/issues?q=is%3Aissue+is%3Aopen"
   },
-  "homepage": "https://github.com/FirefoxUX/design-tokens/tree/master/photon-icons#readme",
+  "homepage": "https://github.com/FirefoxUX/photon-icons/#readme",
   "dependencies": {
-    "shelljs": "0.8.1"
+    "shelljs": "0.8.2"
   }
 }
