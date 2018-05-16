@@ -13,7 +13,11 @@ let prevname = "";
 const out_of_order = [];
 
 for (let icon of icons) {
-  let currname = icon.categories.join(':') + '/' + icon.name;
+  let currname = icon.categories.join(':') + '/';
+  if (icon.tags) {
+    currname += icon.tags.join(':') + '/';
+  }
+  currname += icon.name;
   if (currname < prevname) {
     out_of_order.push(`${currname} should be before ${prevname}.`);
   }

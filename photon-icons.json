@@ -42,8 +42,8 @@
       }
     },
     { "name": "Update Failed",
-      "tags": [],
-      "categories": ["badges", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["badges"],
       "source": {
         "desktop": {
           "16": "icons/desktop/update-failed-16.svg"
@@ -51,8 +51,8 @@
       }
     },
     { "name": "Update Success",
-      "tags": [],
-      "categories": ["badges", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["badges"],
       "source": {
         "desktop": {
           "16": "icons/desktop/update-success-16.svg"
@@ -168,8 +168,8 @@
       }
     },
     { "name": "Character Encoding",
-      "tags": [],
-      "categories": ["content", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["content"],
       "source": {
         "desktop": {
           "16": "icons/desktop/character-encoding-16.svg"
@@ -177,8 +177,8 @@
       }
     },
     { "name": "Zoom In",
-      "tags": [],
-      "categories": ["content", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["content"],
       "source": {
         "desktop": {
           "16": "icons/desktop/zoom-in-16.svg"
@@ -186,8 +186,8 @@
       }
     },
     { "name": "Zoom Out",
-      "tags": [],
-      "categories": ["content", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["content"],
       "source": {
         "desktop": {
           "16": "icons/desktop/zoom-out-16.svg"
@@ -195,8 +195,8 @@
       }
     },
     { "name": "Add",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-add-16.svg"
@@ -204,8 +204,8 @@
       }
     },
     { "name": "App",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-app-16.svg"
@@ -213,8 +213,8 @@
       }
     },
     { "name": "Clear",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-clear-16.svg"
@@ -222,8 +222,8 @@
       }
     },
     { "name": "Close",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-close-16.svg"
@@ -231,8 +231,8 @@
       }
     },
     { "name": "Command Console",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-console-16.svg"
@@ -240,8 +240,8 @@
       }
     },
     { "name": "Command Eyedropper",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-eyedropper-16.svg"
@@ -249,8 +249,8 @@
       }
     },
     { "name": "Command Frames",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-frames-16.svg"
@@ -258,8 +258,8 @@
       }
     },
     { "name": "Command Measure",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-measure-16.svg"
@@ -267,8 +267,8 @@
       }
     },
     { "name": "Command Noautohide",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-noautohide-16.svg"
@@ -276,8 +276,8 @@
       }
     },
     { "name": "Command Paintflashing",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-paintflashing-16.svg"
@@ -285,8 +285,8 @@
       }
     },
     { "name": "Command Pick",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-pick-16.svg"
@@ -294,8 +294,8 @@
       }
     },
     { "name": "Command Responsivemode",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-responsivemode-16.svg"
@@ -303,8 +303,8 @@
       }
     },
     { "name": "Command Rulers",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-rulers-16.svg"
@@ -312,8 +312,8 @@
       }
     },
     { "name": "Command Screenshot",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-command-screenshot-16.svg"
@@ -321,8 +321,8 @@
       }
     },
     { "name": "Commandline Icon",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-commandline-icon-16.svg"
@@ -330,8 +330,8 @@
       }
     },
     { "name": "Console Input",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "12": "icons/desktop/developer-console-input-12.svg"
@@ -339,8 +339,8 @@
       }
     },
     { "name": "Console Output",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "12": "icons/desktop/developer-console-output-12.svg"
@@ -348,8 +348,8 @@
       }
     },
     { "name": "Debugger Step In",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-debugger-step-in.svg"
@@ -357,8 +357,8 @@
       }
     },
     { "name": "Debugger Step Out",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-debugger-step-out.svg"
@@ -366,8 +366,8 @@
       }
     },
     { "name": "Debugger Step Over",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-debugger-step-over.svg"
@@ -375,8 +375,8 @@
       }
     },
     { "name": "Debugging Devices",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-debugging-devices.svg"
@@ -384,8 +384,8 @@
       }
     },
     { "name": "Debugging Workers",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-debugging-workers.svg"
@@ -393,8 +393,8 @@
       }
     },
     { "name": "Developer Panel",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-panel.svg"
@@ -402,8 +402,8 @@
       }
     },
     { "name": "Diff",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-diff.svg"
@@ -411,8 +411,8 @@
       }
     },
     { "name": "Dir Close",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-dir-close.svg"
@@ -420,8 +420,8 @@
       }
     },
     { "name": "Dir Open",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-dir-open.svg"
@@ -429,8 +429,8 @@
       }
     },
     { "name": "Dock Bottom",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-dock-bottom.svg"
@@ -438,8 +438,8 @@
       }
     },
     { "name": "Dock Side",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-dock-side.svg"
@@ -447,8 +447,8 @@
       }
     },
     { "name": "Dock Undock",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-dock-undock.svg"
@@ -456,8 +456,8 @@
       }
     },
     { "name": "Fast Forward",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-fast-forward.svg"
@@ -465,8 +465,8 @@
       }
     },
     { "name": "Filter",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-filter.svg"
@@ -474,8 +474,8 @@
       }
     },
     { "name": "Geometry Editor",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-geometry-editor.svg"
@@ -483,8 +483,8 @@
       }
     },
     { "name": "Globe",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-globe.svg"
@@ -492,8 +492,8 @@
       }
     },
     { "name": "Import",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-import.svg"
@@ -501,8 +501,8 @@
       }
     },
     { "name": "Item Toggle",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-item-toggle.svg"
@@ -510,8 +510,8 @@
       }
     },
     { "name": "Pane Collapse",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-pane-collapse.svg"
@@ -519,8 +519,8 @@
       }
     },
     { "name": "Pane Expand",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-pane-expand.svg"
@@ -528,8 +528,8 @@
       }
     },
     { "name": "Pause",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-pause.svg"
@@ -537,8 +537,8 @@
       }
     },
     { "name": "Play",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-play.svg"
@@ -546,8 +546,8 @@
       }
     },
     { "name": "Power",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-power.svg"
@@ -555,8 +555,8 @@
       }
     },
     { "name": "Promise Debugger",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-promise-debugger.svg"
@@ -564,8 +564,8 @@
       }
     },
     { "name": "Pseudo Class",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-pseudo-class.svg"
@@ -573,8 +573,8 @@
       }
     },
     { "name": "Rewind",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-rewind.svg"
@@ -582,8 +582,8 @@
       }
     },
     { "name": "Rotate Viewport",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-rotate-viewport.svg"
@@ -591,8 +591,8 @@
       }
     },
     { "name": "Search",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-search.svg"
@@ -600,8 +600,8 @@
       }
     },
     { "name": "Tool Canvas",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-canvas.svg"
@@ -609,8 +609,8 @@
       }
     },
     { "name": "Tool Debugger",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-debugger.svg"
@@ -618,8 +618,8 @@
       }
     },
     { "name": "Tool Dom",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-dom.svg"
@@ -627,8 +627,8 @@
       }
     },
     { "name": "Tool Inspector",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-inspector.svg"
@@ -636,8 +636,8 @@
       }
     },
     { "name": "Tool Memory",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-memory.svg"
@@ -645,8 +645,8 @@
       }
     },
     { "name": "Tool Network",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-network.svg"
@@ -654,8 +654,8 @@
       }
     },
     { "name": "Tool Options",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-options.svg"
@@ -663,8 +663,8 @@
       }
     },
     { "name": "Tool Profiler",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-profiler.svg"
@@ -672,8 +672,8 @@
       }
     },
     { "name": "Tool Scratchpad",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-scratchpad.svg"
@@ -681,8 +681,8 @@
       }
     },
     { "name": "Tool Shadereditor",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-shadereditor.svg"
@@ -690,8 +690,8 @@
       }
     },
     { "name": "Tool Storage",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-storage.svg"
@@ -699,8 +699,8 @@
       }
     },
     { "name": "Tool Styleeditor",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-styleeditor.svg"
@@ -708,8 +708,8 @@
       }
     },
     { "name": "Tool Webaudio",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-webaudio.svg"
@@ -717,8 +717,8 @@
       }
     },
     { "name": "Tool Webconsole",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-webconsole.svg"
@@ -726,8 +726,8 @@
       }
     },
     { "name": "Touch Events",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-touch-events.svg"
@@ -735,8 +735,8 @@
       }
     },
     { "name": "Webide",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-webide.svg"
@@ -960,8 +960,8 @@
       }
     },
     { "name": "Caption",
-      "tags": [],
-      "categories": ["media", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/caption-16.svg"
@@ -969,8 +969,8 @@
       }
     },
     { "name": "Cast",
-      "tags": [],
-      "categories": ["media", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/cast-16.svg"
@@ -978,8 +978,8 @@
       }
     },
     { "name": "Chapter",
-      "tags": [],
-      "categories": ["media", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/chapter-16.svg"
@@ -987,8 +987,8 @@
       }
     },
     { "name": "Pause",
-      "tags": [],
-      "categories": ["media", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/pause-16.svg"
@@ -996,8 +996,8 @@
       }
     },
     { "name": "Rewind",
-      "tags": [],
-      "categories": ["media", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/rewind-16.svg"
@@ -1195,8 +1195,8 @@
       }
     },
     { "name": "Go",
-      "tags": [],
-      "categories": ["navigation", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["navigation"],
       "source": {
         "desktop": {
           "12": "icons/desktop/go-12.svg"
@@ -1204,8 +1204,8 @@
       }
     },
     { "name": "Tab Groups",
-      "tags": [],
-      "categories": ["navigation", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["navigation"],
       "source": {
         "desktop": {
           "12": "icons/desktop/tab-groups-12.svg"
@@ -1601,8 +1601,8 @@
       }
     },
     { "name": "Permissions",
-      "tags": [],
-      "categories": ["permissions", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["permissions"],
       "source": {
         "desktop": {
           "24": "icons/desktop/permissions-24.svg"
@@ -1673,8 +1673,8 @@
       }
     },
     { "name": "Import Export",
-      "tags": [],
-      "categories": ["places", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["places"],
       "source": {
         "desktop": {
           "16": "icons/desktop/import-export-16.svg"
@@ -1682,8 +1682,8 @@
       }
     },
     { "name": "List",
-      "tags": [],
-      "categories": ["places", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["places"],
       "source": {
         "desktop": {
           "16": "icons/desktop/list-16.svg"
@@ -1691,8 +1691,8 @@
       }
     },
     { "name": "Organize",
-      "tags": [],
-      "categories": ["places", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["places"],
       "source": {
         "desktop": {
           "16": "icons/desktop/organize-16.svg"
@@ -1700,8 +1700,8 @@
       }
     },
     { "name": "Search History",
-      "tags": [],
-      "categories": ["places", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["places"],
       "source": {
         "desktop": {
           "16": "icons/desktop/search-history-16.svg"
@@ -1736,8 +1736,8 @@
       }
     },
     { "name": "Exit",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/exit-24.svg"
@@ -1745,8 +1745,8 @@
       }
     },
     { "name": "Narrate",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/narrate-24.svg"
@@ -1754,8 +1754,8 @@
       }
     },
     { "name": "Narrate Faster",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/narrate-faster-24.svg"
@@ -1763,8 +1763,8 @@
       }
     },
     { "name": "Narrate Slower",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/narrate-slower-24.svg"
@@ -1772,8 +1772,8 @@
       }
     },
     { "name": "Type Controls",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/type-controls-24.svg"
@@ -1781,8 +1781,8 @@
       }
     },
     { "name": "Type Controls Serif",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["reader"],
       "source": {
         "desktop": {
           "24": "icons/desktop/type-controls-serif-24.svg"
@@ -1844,8 +1844,8 @@
       }
     },
     { "name": "Identity Mixed Active Blocked",
-      "tags": [],
-      "categories": ["security", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["security"],
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-mixed-active-blocked-16.svg"
@@ -1853,8 +1853,8 @@
       }
     },
     { "name": "Identity Mixed Active Loaded",
-      "tags": [],
-      "categories": ["security", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["security"],
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-mixed-active-loaded-16.svg"
@@ -1862,8 +1862,8 @@
       }
     },
     { "name": "Identity Mixed Passive Loaded",
-      "tags": [],
-      "categories": ["security", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["security"],
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-mixed-passive-loaded-16.svg"
@@ -1871,8 +1871,8 @@
       }
     },
     { "name": "Identity Not Secure",
-      "tags": [],
-      "categories": ["security", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["security"],
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-not-secure-16.svg"
@@ -1880,8 +1880,8 @@
       }
     },
     { "name": "Identity Secure",
-      "tags": [],
-      "categories": ["security", "deprecated"],
+      "tags": ["deprecated"],
+      "categories": ["security"],
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-secure-16.svg"
