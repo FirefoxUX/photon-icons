@@ -1927,7 +1927,7 @@
         }
       }
     },
-    { "name": "bookmark-16-Outl",
+    { "name": "bookmark-16-Outline",
       "tags": [],
       "categories": ["wip"],
       "source": {
@@ -2103,15 +2103,7 @@
       "categories": ["wip"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/secure-broken-16.svg"
-        }
-      }
-    },
-    { "name": "secure-broken",
-      "tags": [],
-      "categories": ["wip"],
-      "source": {
-        "desktop": {
+          "16": "icons/desktop/secure-broken-16.svg",
           "24": "icons/desktop/secure-broken-24.svg"
         }
       }
@@ -2125,7 +2117,7 @@
         }
       }
     },
-    { "name": "send-to-dev",
+    { "name": "send-to-device",
       "tags": [],
       "categories": ["wip"],
       "source": {
