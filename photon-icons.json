@@ -1927,12 +1927,12 @@
         }
       }
     },
-    { "name": "bookmark-16-Outline",
+    { "name": "bookmark-16-outline",
       "tags": [],
       "categories": ["wip"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/bookmark-16-Outline.svg"
+          "16": "icons/desktop/bookmark-16-outline.svg"
         }
       }
     },
