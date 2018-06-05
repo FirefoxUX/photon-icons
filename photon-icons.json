@@ -1898,6 +1898,262 @@
           "16": "icons/desktop/identity-secure-16.svg"
         }
       }
+    },
+
+    { "name": "autoscroll",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/autoscroll-32.svg"
+        }
+      }
+    },
+    { "name": "autoscroll-horizontal",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/autoscroll-horizontal-32.svg"
+        }
+      }
+    },
+    { "name": "autoscroll-vertical",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/autoscroll-vertical-32.svg"
+        }
+      }
+    },
+    { "name": "bookmark-16-Outl",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/bookmark-16-Outline.svg"
+        }
+      }
+    },
+    { "name": "default-browser",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/default-browser-16.svg"
+        }
+      }
+    },
+    { "name": "forward",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "12": "icons/desktop/forward-12.svg"
+        }
+      }
+    },
+    { "name": "globe",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/globe-16.svg"
+        }
+      }
+    },
+    { "name": "import",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/import-16.svg"
+        }
+      }
+    },
+    { "name": "inbox",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/inbox-16.svg"
+        }
+      }
+    },
+    { "name": "information",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/information-16.svg"
+        }
+      }
+    },
+    { "name": "maximize",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/maximize-16.svg"
+        }
+      }
+    },
+    { "name": "midi",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/midi-16.svg"
+        }
+      }
+    },
+    { "name": "minimize",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/minimize-16.svg"
+        }
+      }
+    },
+    { "name": "mouse-pointer",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "6": "icons/desktop/mouse-pointer-6.svg"
+        }
+      }
+    },
+    { "name": "newtab-historyitem",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/newtab-historyitem-16.svg"
+        }
+      }
+    },
+    { "name": "newtab-popular",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/newtab-popular-16.svg"
+        }
+      }
+    },
+    { "name": "newtab-topsites",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/newtab-topsites-16.svg"
+        }
+      }
+    },
+    { "name": "performance",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/performance-16.svg"
+        }
+      }
+    },
+    { "name": "pocket-remove",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/pocket-remove-16.svg"
+        }
+      }
+    },
+    { "name": "reminders",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reminders-16.svg"
+        }
+      }
+    },
+    { "name": "restoresession",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/restoresession-16.svg"
+        }
+      }
+    },
+    { "name": "secure",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/secure-24.svg"
+        }
+      }
+    },
+    { "name": "secure-broken",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/secure-broken-16.svg"
+        }
+      }
+    },
+    { "name": "secure-broken",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/secure-broken-24.svg"
+        }
+      }
+    },
+    { "name": "secure-mixed",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/secure-mixed-16.svg"
+        }
+      }
+    },
+    { "name": "send-to-dev",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/send-to-device.svg"
+        }
+      }
+    },
+    { "name": "toolbar",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/toolbar-16.svg"
+        }
+      }
+    },
+    { "name": "webvr",
+      "tags": [],
+      "categories": ["wip"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/webvr-16.svg"
+        }
+      }
     }
+
+
+
   ]
 }
