@@ -32,21 +32,21 @@
         }
       }
     },
-    { "name": "Warning",
-      "tags": ["warn", "error", "warning", "attention"],
-      "categories": ["alert"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/warning-16.svg"
-        }
-      }
-    },
     { "name": "Information",
       "tags": ["info", "information", "policy"],
       "categories": ["alert"],
       "source": {
         "desktop": {
           "16": "icons/desktop/information-16.svg"
+        }
+      }
+    },
+    { "name": "Warning",
+      "tags": ["warn", "error", "warning", "attention"],
+      "categories": ["alert"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/warning-16.svg"
         }
       }
     },
