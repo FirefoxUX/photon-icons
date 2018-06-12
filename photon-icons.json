@@ -29,15 +29,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/info-16.svg"
-        }
-      }
-    },
-    { "name": "Warning",
-      "tags": ["warn", "error", "warning", "attention"],
-      "categories": ["alert"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/warning-16.svg"
+        },
+        "android": {
+          "24": "icons/android/info-24.svg"
         }
       }
     },
@@ -47,6 +41,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/information-16.svg"
+        }
+      }
+    },
+    { "name": "Warning",
+      "tags": ["warn", "error", "warning", "attention"],
+      "categories": ["alert"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/warning-16.svg"
         }
       }
     },
@@ -852,7 +855,7 @@
       }
     },
     { "name": "Preferences Macos",
-      "tags": [],
+      "tags": ["macos", "mac", "settings", "options", "preferences"],
       "categories": ["general"],
       "source": {
         "desktop": {
@@ -1093,6 +1096,9 @@
         "desktop": {
           "12": "icons/desktop/forward-12.svg",
           "16": "icons/desktop/forward-16.svg"
+        },
+        "android": {
+          "24": "icons/android/forward-24.svg"
         }
       }
     },
@@ -1138,6 +1144,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/refresh-16.svg"
+        },
+        "android": {
+          "24": "icons/android/refresh-24.svg"
         }
       }
     },
@@ -1160,11 +1169,14 @@
       }
     },
     { "name": "Stop",
-      "tags": [],
+      "tags": ["stop", "x"],
       "categories": ["navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/stop-16.svg"
+        },
+        "android": {
+          "24": "icons/android/stop-24.svg"
         }
       }
     },
@@ -1249,6 +1261,15 @@
         }
       }
     },
+    { "name": "Data Collection",
+      "tags": ["data", "collection", "usage"],
+      "categories": ["new"],
+      "source": {
+        "android": {
+          "24": "icons/android/data-collection-24.svg"
+        }
+      }
+    },
     { "name": "Default Browser",
       "tags": ["default", "love", "hearth"],
       "categories": ["new"],
@@ -1259,11 +1280,14 @@
       }
     },
     { "name": "Delete",
-      "tags": [],
+      "tags": ["delete", "cancel", "trash", "bin"],
       "categories": ["new"],
       "source": {
         "desktop": {
           "16": "icons/desktop/delete-16.svg"
+        },
+        "android": {
+          "24": "icons/android/delete-24.svg"
         }
       }
     },
@@ -1416,8 +1440,22 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "12": "icons/desktop/pin-12.svg",
-          "16": "icons/desktop/pin-16.svg"
+          "12": "icons/desktop/pin-12.svg"
+        },
+        "android": {
+          "24": "icons/android/pin-24.svg"
+        }
+      }
+    },
+    { "name": "Pin Outline",
+      "tags": ["pin", "outline"],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/pin-outline-16.svg"
+        },
+        "android": {
+          "24": "icons/android/pin-outline-24.svg"
         }
       }
     },
@@ -1475,6 +1513,15 @@
         }
       }
     },
+    { "name": "Settings",
+      "tags": ["settings", "preferences", "options"],
+      "categories": ["new"],
+      "source": {
+        "android": {
+          "24": "icons/android/preferences-24.svg"
+        }
+      }
+    },
     { "name": "Sub Item",
       "tags": ["sub", "item"],
       "categories": ["new"],
@@ -1493,6 +1540,24 @@
         }
       }
     },
+    { "name": "Turbo Mode",
+      "tags": ["turbo"],
+      "categories": ["new"],
+      "source": {
+        "android": {
+          "24": "icons/android/turbo-mode-24.svg"
+        }
+      }
+    },
+    { "name": "Turbo Mode Outline",
+      "tags": ["turbo", "outline"],
+      "categories": ["new"],
+      "source": {
+        "android": {
+          "24": "icons/android/turbo-mode-outline-24.svg"
+        }
+      }
+    },
     { "name": "Web VR",
       "tags": [],
       "categories": ["new"],
@@ -1503,11 +1568,11 @@
       }
     },
     { "name": "History Item",
-      "tags": ["history"],
+      "tags": ["history", "outline"],
       "categories": ["new tab"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/newtab-historyitem-16.svg"
+          "16": "icons/desktop/history-item-outline-16.svg"
         }
       }
     },
@@ -1534,10 +1599,10 @@
       "categories": ["new tab"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/topsites-16.svg"
+          "16": "icons/desktop/top-sites-16.svg"
         },
         "android": {
-          "24": "icons/android/topsites-24.svg"
+          "24": "icons/android/top-sites-24.svg"
         }
       }
     },
@@ -1546,7 +1611,7 @@
       "categories": ["new tab"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/newtab-topsites-16.svg"
+          "16": "icons/desktop/top-sites-outline-16.svg"
         }
       }
     },
@@ -1997,6 +2062,9 @@
       "source": {
         "desktop": {
           "24": "icons/desktop/secure-24.svg"
+        },
+        "android": {
+          "24": "icons/android/secure-24.svg"
         }
       }
     },
