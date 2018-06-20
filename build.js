@@ -6,24 +6,22 @@ const HEADER = `<!-- This Source Code Form is subject to the terms of the Mozill
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 `
 
-const shell = require('shelljs');
 const fs = require('fs');
-const svgToPdf = require('./svgToPdf');
 const jsdom = require('jsdom');
+const shell = require('shelljs');
+const svgToPdf = require('./svgToPdf');
+const s2v = require("svg2vectordrawable");
 
 const images = shell.ls('-R', 'icons')
   .map(image => `icons/${image}`)
   .filter(image => image.includes('.svg'));
 
 for (let image of images) {
-  // check for the correct viewbox.
   let data = HEADER + fs.readFileSync(image, 'utf-8');
   fs.writeFileSync(image, data, 'utf-8');
-  if (image.indexOf('ios') != -1) {
+  if (image.indexOf('/ios/') != -1) {
     jsdom.env({html: data,
       done : function (errors, window) {
-        // window.document.getElementById("rect1").innerHTML = strYourText;
-        // console.log(window.document.body);
         console.log(image);
         var temp = svgToPdf(window.document.body);
         if (temp) {
@@ -31,5 +29,8 @@ for (let image of images) {
         }
       }
     });
+  } else if (image.indexOf('/android/') != -1) {
+    console.log(image);
+    s2v.svg2vectorDrawableFile(image, image.replace('.svg', '.xml'));
   }
 }
