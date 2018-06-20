@@ -54,7 +54,6 @@ var parseNumbers = function(data) {
 
 var svgElementToPdf = function(element, pdf, options) {
     // pdf is a jsPDF object
-    //console.log("options =", options);
     var remove = (typeof(options.removeInvalid) == 'undefined' ? false : options.removeInvalid);
     var k = (typeof(options.scale) == 'undefined' ? 1.0 : options.scale);
     var colorMode = null;
@@ -125,7 +124,6 @@ var svgElementToPdf = function(element, pdf, options) {
             case 'path':
                 let d = node.getAttribute('d');
                 const REGEX = /(?=[MmLlHhVvQqCcTtSsAaZz])/
-                console.log('Path:  ', d);
                 let current = {x:0, y:0};
                 let firstPoint = null;
                 let controlPoint = null;
@@ -175,7 +173,7 @@ var svgElementToPdf = function(element, pdf, options) {
                                     current.x - prev.x,
                                     current.y - prev.y
                                 ]);
-                            part = part.slice(2);
+                                part = part.slice(2);
                             }
                             break;
                         case 'H':
@@ -207,7 +205,6 @@ var svgElementToPdf = function(element, pdf, options) {
                         case 'C':
                         case 'c':
                             part = parseNumbers(part);
-                            console.log(op, part);
                             while (part.length) {
                                 let prev = {...current};
                                 if (op == 'C') {
@@ -232,20 +229,17 @@ var svgElementToPdf = function(element, pdf, options) {
                                     x: 2*current.x - cp2.x,
                                     y: 2*current.y - cp2.y
                                 };
-                                console.log(' ', current, cp2, controlPoint);
                                 part = part.slice(6);
                             }
                         break;
                         case 'S':
                         case 's':
                             part = parseNumbers(part);
-                            console.log(op, part);
                             while (part.length) {
                                 let prev = {...current};
                                 if (!controlPoint) {
                                     controlPoint = {...current};
                                 }
-                                console.log(' ', prev, controlPoint);
                                 if (op == 'S') {
                                     current = {x:0, y:0};
                                 }
@@ -273,7 +267,26 @@ var svgElementToPdf = function(element, pdf, options) {
                             break;
                         case 'A':
                         case 'a':
-                            // break;
+                            part = parseNumbers(part);
+                            while (part.length) {
+                                let prev = {...current};
+                                current.x += part[5];
+                                current.y += part[6];
+                                let q = Math.sqrt(
+                                    (current.x - prev.x) * (current.x - prev.x) +
+                                    (current.y - prev.y) * (current.y - prev.y)
+                                );
+                                let mid = Math.sqrt(Math.abs(part[0] * part[0] - q * q / 4));
+                                let x = (current.x + prev.x) / 2 + mid * (current.y - prev.y) / q;
+                                let y = (current.y + prev.y) / 2 + mid * (current.x - prev.x) / q;
+                                pdf.ellipse(x, y, part[0], part[1], colorMode);
+                                lines.push([
+                                    current.x - prev.x,current.y - prev.y
+                                ]);
+                                controlPoint = null;
+                                part = part.slice(7);
+                            }
+                            break;
                         case 'Q':
                         case 'q':
                         case 'T':
@@ -283,7 +296,6 @@ var svgElementToPdf = function(element, pdf, options) {
                             break;
                     }
                 }
-                console.log('Lines:', firstPoint, lines);
                 pdf.lines(
                     lines,
                     firstPoint.x,

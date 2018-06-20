@@ -13,7 +13,7 @@ const jsdom = require('jsdom');
 
 const images = shell.ls('-R', 'icons')
   .map(image => `icons/${image}`)
-  .filter(image => image.includes('.'));
+  .filter(image => image.includes('.svg'));
 
 for (let image of images) {
   // check for the correct viewbox.
