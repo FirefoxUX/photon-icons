@@ -9,7 +9,7 @@ const SIZE_RE = /<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="(\d+)" heigh
 
 const images = shell.ls('-R', 'icons')
   .map(image => `icons/${image}`)
-  .filter(image => image.includes('.'));
+  .filter(image => image.includes('.svg'));
 let prevname = "";
 
 const missing = [];
