@@ -1409,11 +1409,14 @@
       }
     },
     { "name": "New",
-      "tags": ["new"],
+      "tags": ["new", "add", "tab"],
       "categories": ["new"],
       "source": {
         "desktop": {
           "16": "icons/desktop/new-16.svg"
+        },
+        "android": {
+          "24": "icons/android/new-24.svg"
         }
       }
     },
