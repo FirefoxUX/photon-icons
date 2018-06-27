@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/FirefoxUX/photon-icons/#readme",
   "dependencies": {
+    "jquery": "3.3.1",
+    "jspdf": "1.4.1",
     "shelljs": "0.8.2",
-    "svgo": "^1.0.5"
+    "svg2vectordrawable": "1.1.10",
+    "svgo": "1.0.5"
   }
 }
