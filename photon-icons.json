@@ -14,12 +14,24 @@
     "yellow-60"
   ],
   "icons": [
+    { "name": "Language",
+      "tags": [],
+      "categories": ["action"],
+      "source": {
+        "android": {
+          "24": "icons/android/language-24.svg"
+        }
+      }
+    },
     { "name": "Help",
       "tags": ["alert", "warning"],
       "categories": ["alert"],
       "source": {
         "desktop": {
           "16": "icons/desktop/help-16.svg"
+        },
+        "android": {
+          "24": "icons/android/help-24.svg"
         }
       }
     },
@@ -50,6 +62,18 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/warning-16.svg"
+        },
+        "android": {
+          "24": "icons/android/warning-24.svg"
+        }
+      }
+    },
+    { "name": "Add search engine",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "android": {
+          "24": "icons/android/add-search-engine-24.svg"
         }
       }
     },
@@ -68,6 +92,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/cut-16.svg"
+        }
+      }
+    },
+    { "name": "Font",
+      "tags": ["typeface"],
+      "categories": ["content"],
+      "source": {
+        "android": {
+          "24": "icons/android/font-24.svg"
         }
       }
     },
@@ -144,11 +177,14 @@
       }
     },
     { "name": "Search macOS",
-      "tags": ["search", "macos"],
+      "tags": [],
       "categories": ["content"],
       "source": {
         "desktop": {
           "16": "icons/desktop/search-16.svg"
+        },
+        "android": {
+          "24": "icons/android/search-24.svg"
         }
       }
     },
@@ -746,6 +782,24 @@
         }
       }
     },
+    { "name": "Brightness",
+      "tags": [""],
+      "categories": ["device"],
+      "source": {
+        "android": {
+          "24": "icons/android/brightness-24.svg"
+        }
+      }
+    },
+    { "name": "Brightness outline",
+      "tags": ["outline"],
+      "categories": ["device"],
+      "source": {
+        "android": {
+          "24": "icons/android/brightness-outline-24.svg"
+        }
+      }
+    },
     { "name": "Available Updates",
       "tags": [],
       "categories": ["extensions"],
@@ -779,6 +833,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/extensions-16.svg"
+        },
+        "android": {
+          "24": "icons/android/extensions-24.svg"
         }
       }
     },
@@ -868,7 +925,10 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/privatebrowsing-16.svg"
+          "16": "icons/desktop/private-browsing-16.svg"
+        },
+        "android": {
+          "24": "icons/android/private-browsing-24.svg"
         }
       }
     },
@@ -890,12 +950,15 @@
         }
       }
     },
-    { "name": "Share macOS",
-      "tags": [],
+    { "name": "Share",
+      "tags": ["macOS"],
       "categories": ["general"],
       "source": {
         "desktop": {
           "16": "icons/desktop/share-16-macos.svg"
+        },
+        "android": {
+          "24": "icons/android/share-24.svg"
         }
       }
     },
@@ -914,6 +977,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/sync-16.svg"
+        },
+        "android": {
+          "24": "icons/android/sync-24.svg"
         }
       }
     },
@@ -1023,6 +1089,9 @@
         "desktop": {
           "12": "icons/desktop/arrowhead-down-12.svg",
           "16": "icons/desktop/arrowhead-down-16.svg"
+        },
+        "android": {
+          "24": "icons/android/arrowhead-down-24.svg"
         }
       }
     },
@@ -1033,6 +1102,9 @@
         "desktop": {
           "12": "icons/desktop/arrowhead-left-12.svg",
           "16": "icons/desktop/arrowhead-left-16.svg"
+        },
+        "android": {
+          "24": "icons/android/arrowhead-left-24.svg"
         }
       }
     },
@@ -1043,6 +1115,9 @@
         "desktop": {
           "12": "icons/desktop/arrowhead-right-12.svg",
           "16": "icons/desktop/arrowhead-right-16.svg"
+        },
+        "android": {
+          "24": "icons/android/arrowhead-right-24.svg"
         }
       }
     },
@@ -1053,6 +1128,9 @@
         "desktop": {
           "12": "icons/desktop/arrowhead-up-12.svg",
           "16": "icons/desktop/arrowhead-up-16.svg"
+        },
+        "android": {
+          "24": "icons/android/arrowhead-up-24.svg"
         }
       }
     },
@@ -1077,6 +1155,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/close-16.svg"
+        },
+        "android": {
+          "24": "icons/android/close-24.svg"
         }
       }
     },
@@ -1108,6 +1189,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/home-16.svg"
+        },
+        "android": {
+          "24": "icons/android/home-24.svg"
         }
       }
     },
@@ -1117,6 +1201,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/menu-16.svg"
+        },
+        "android": {
+          "24": "icons/android/menu-24.svg"
         }
       }
     },
@@ -1126,15 +1213,21 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/overflow-16.svg"
+        },
+        "android": {
+          "24": "icons/android/overflow-24.svg"
         }
       }
     },
-    { "name": "Privatebrowsing",
+    { "name": "Private browsing",
       "tags": [],
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/privatebrowsing-16.svg"
+          "16": "icons/desktop/private-browsing-16.svg"
+        },
+        "android": {
+          "24": "icons/android/private-browsing-24.svg"
         }
       }
     },
@@ -1151,11 +1244,14 @@
       }
     },
     { "name": "Search",
-      "tags": [],
+      "tags": ["macOS", "mac"],
       "categories": ["navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/search-16.svg"
+        },
+        "android": {
+          "24": "icons/android/search-24.svg"
         }
       }
     },
@@ -1189,12 +1285,24 @@
         }
       }
     },
-    { "name": "Tab New",
+    { "name": "Tab mobile",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "android": {
+          "24": "icons/android/tab-mobile-24.svg"
+        }
+      }
+    },
+    { "name": "Tab new",
       "tags": [],
       "categories": ["navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/tab-new-16.svg"
+        },
+        "android": {
+          "24": "icons/android/new-tab-24.svg"
         }
       }
     },
@@ -1306,6 +1414,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/device-desktop-16.svg"
+        },
+        "android": {
+          "24": "icons/android/device-desktop-24.svg"
         }
       }
     },
@@ -1315,6 +1426,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/device-mobile-16.svg"
+        },
+        "android": {
+          "24": "icons/android/device-mobile-24.svg"
         }
       }
     },
@@ -1342,6 +1456,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/globe-16.svg"
+        },
+        "android": {
+          "24": "icons/android/globe-24.svg"
         }
       }
     },
@@ -1369,6 +1486,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/library-16.svg"
+        },
+        "android": {
+          "24": "icons/android/library-24.svg"
         }
       }
     },
@@ -1399,12 +1519,24 @@
         }
       }
     },
-    { "name": "More",
+    { "name": "More horizontal",
       "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
           "16": "icons/desktop/more-16.svg"
+        },
+        "android": {
+          "24": "icons/android/more-horiz-24.svg"
+        }
+      }
+    },
+    { "name": "More vertical",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "android": {
+          "24": "icons/android/more-vert-24.svg"
         }
       }
     },
@@ -1426,6 +1558,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/open-in-new-16.svg"
+        },
+        "android": {
+          "24": "icons/android/open-in-new-24.svg"
         }
       }
     },
@@ -1834,21 +1969,27 @@
         }
       }
     },
-    { "name": "Bookmark Filled",
+    { "name": "Bookmark",
+      "tags": ["star"],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/bookmark-16.svg"
+        },
+        "android": {
+          "24": "icons/android/bookmark-24.svg"
+        }
+      }
+    },
+    { "name": "Bookmark outline",
       "tags": [],
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/bookmark-16-filled.svg"
-        }
-      }
-    },
-    { "name": "Bookmark Outlined",
-      "tags": ["bookmark", "star", "outline"],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/bookmark-16-outline.svg"
+          "16": "icons/desktop/bookmark-outline-16.svg"
+        },
+        "android": {
+          "24": "icons/android/bookmark-outline-24.svg"
         }
       }
     },
@@ -1876,6 +2017,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/download-16.svg"
+        },
+        "android": {
+          "24": "icons/android/download-24.svg"
         }
       }
     },
@@ -1885,6 +2029,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/history-16.svg"
+        },
+        "android": {
+          "24": "icons/android/history-24.svg"
         }
       }
     },
@@ -1965,7 +2112,10 @@
       "categories": ["reader"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/readermode-16.svg"
+          "16": "icons/desktop/reader-mode-16.svg"
+        },
+        "android": {
+          "24": "icons/android/reader-mode-24.svg"
         }
       }
     },
@@ -2097,6 +2247,9 @@
         "desktop": {
           "16": "icons/desktop/tracking-protection-16.svg",
           "32": "icons/desktop/tracking-protection-32.svg"
+        },
+        "android": {
+          "24": "icons/android/tracking-protection-24.svg"
         }
       }
     },
@@ -2107,6 +2260,9 @@
         "desktop": {
           "16": "icons/desktop/tracking-protection-16-disabled.svg",
           "32": "icons/desktop/tracking-protection-32-disabled.svg"
+        },
+        "android": {
+          "24": "icons/android/tracking-protection-disabled-24.svg"
         }
       }
     }
