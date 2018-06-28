@@ -19,11 +19,7 @@ const out_of_order = [];
 const bad_sizes = [];
 
 for (let icon of icons) {
-  let currname = icon.categories.join(':');
-  if (icon.tags.indexOf('deprecated') != -1) {
-    currname += ':deprecated';
-  }
-  currname += '/' + icon.name;
+  let currname = icon.name;
   currname = currname.replace(' ', '@').toLocaleLowerCase();
   if (currname < prevname) {
     out_of_order.push(`${currname.replace('@', ' ')} should be before ${prevname.replace('@', ' ')}.`);
