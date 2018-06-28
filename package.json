@@ -4,6 +4,7 @@
   "description": "Icons for Firefox and related properties.",
   "scripts": {
     "test": "node validate.js",
+    "import": "node import.js",
     "build": "svgo --disable=removeViewBox icons/* && node build.js"
   },
   "repository": {
