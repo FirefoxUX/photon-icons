@@ -18,15 +18,44 @@ const unseen = images.slice();
 const out_of_order = [];
 const bad_sizes = [];
 
-for (let icon of icons) {
-  let currname = icon.categories.join(':');
-  if (icon.tags.indexOf('deprecated') != -1) {
-    currname += ':deprecated';
+function checkIncluded(name, categories, tags) {
+  let rv = false;
+  name = name.toLocaleLowerCase();
+  categories = categories.map(c => c.toLocaleLowerCase());
+  nextTag: for (let tag of tags.map(c => c.toLocaleLowerCase())) {
+    if (tag.indexOf(name) != -1 || name.indexOf(tag) != -1) {
+      out_of_order.push(`${name}’s tags shouldn’t include ${tag} (already in name).`);
+      rv = true;
+      continue;
+    }
+    for (let category of categories) {
+      if (tag.indexOf(category) != -1 || category.indexOf(tag) != -1) {
+        out_of_order.push(`${name}’s tags shouldn’t include ${tag} (already in categories).`);
+        rv = true;
+        continue nextTag;
+      }
+    }
   }
-  currname += '/' + icon.name;
+  return rv;
+}
+
+function checkAlphabetical(name, list, kind) {
+  let sorted = list.map(c => c.toLocaleLowerCase());
+  sorted.sort();
+  if (JSON.stringify(list.map(c => c.toLocaleLowerCase())) !== JSON.stringify(sorted)) {
+    out_of_order.push(`${name}’s ${kind} aren’t alphabetical.`);
+  }
+}
+
+for (let icon of icons) {
+  let currname = icon.name;
   currname = currname.replace(' ', '@').toLocaleLowerCase();
   if (currname < prevname) {
     out_of_order.push(`${currname.replace('@', ' ')} should be before ${prevname.replace('@', ' ')}.`);
+  }
+  checkAlphabetical(icon.name, icon.categories, "categories");
+  if (!checkIncluded(icon.name, icon.categories, icon.tags)) {
+    checkAlphabetical(icon.name, icon.tags, "tags");
   }
   prevname = currname;
   for (let source in icon.source) {
