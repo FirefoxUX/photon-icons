@@ -280,11 +280,11 @@
       }
     },
     { "name": "Command Console",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-command-console-16.svg"
+          "16": "icons/desktop/command-console-16.svg"
         }
       }
     },
@@ -316,11 +316,11 @@
       }
     },
     { "name": "Command Noautohide",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-command-noautohide-16.svg"
+          "16": "icons/desktop/command-noautohide-16.svg"
         }
       }
     },
@@ -577,29 +577,38 @@
       }
     },
     { "name": "Dock Bottom",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-dock-bottom.svg"
+          "16": "icons/desktop/dock-bottom-16.svg"
         }
       }
     },
-    { "name": "Dock Side",
-      "tags": ["deprecated"],
+    { "name": "Dock Side Left",
+      "tags": [],
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-dock-side.svg"
+          "16": "icons/desktop/dock-side-left-16.svg"
+        }
+      }
+    },
+    { "name": "Dock Side Right",
+      "tags": [],
+      "categories": ["developer"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/dock-side-right-16.svg"
         }
       }
     },
     { "name": "Dock Undock",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-dock-undock.svg"
+          "16": "icons/desktop/dock-undock-16.svg"
         }
       }
     },
@@ -2005,7 +2014,7 @@
       "categories": ["developer"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer-tool-options.svg"
+          "16": "icons/desktop/tool-options-16.svg"
         }
       }
     },
