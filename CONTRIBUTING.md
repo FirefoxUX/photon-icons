@@ -10,7 +10,7 @@ name + variation + size + extension
 
 - bookmark-16.svg
 - bookmark-outline-16.svg
-- bookmark-disable.svg
+- bookmark-disable-16.svg
 
 Do not use on, off, or similar but only `-disable`.
 
