@@ -187,7 +187,7 @@
       }
     },
     { "name": "Brightness",
-      "tags": [ ""],
+      "tags": [],
       "categories": ["device"],
       "source": {
         "android": {
@@ -196,7 +196,7 @@
       }
     },
     { "name": "Brightness outline",
-      "tags": ["outline"],
+      "tags": [],
       "categories": ["device"],
       "source": {
         "android": {
@@ -259,17 +259,8 @@
       }
     },
     { "name": "Close",
-      "tags": ["deprecated"],
-      "categories": ["developer"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/developer-close-16.svg"
-        }
-      }
-    },
-    { "name": "Close",
       "tags": [],
-      "categories": ["navigation"],
+      "categories": ["developer", "navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/close-16.svg"
@@ -397,7 +388,7 @@
       }
     },
     { "name": "Copy",
-      "tags": ["copy", "clipboard"],
+      "tags": ["clipboard"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -415,7 +406,7 @@
       }
     },
     { "name": "Cut",
-      "tags": ["cut", "scissors"],
+      "tags": ["scissors"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -424,7 +415,7 @@
       }
     },
     { "name": "Data Collection",
-      "tags": ["data", "collection", "usage"],
+      "tags": ["usage"],
       "categories": ["new"],
       "source": {
         "android": {
@@ -478,7 +469,7 @@
       }
     },
     { "name": "Default Browser",
-      "tags": ["default", "love", "hearth"],
+      "tags": ["heart", "love"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -487,7 +478,7 @@
       }
     },
     { "name": "Delete",
-      "tags": ["delete", "cancel", "trash", "bin"],
+      "tags": ["bin", "cancel", "trash"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -644,22 +635,13 @@
     },
     { "name": "Extensions",
       "tags": [],
-      "categories": ["extensions"],
+      "categories": ["extensions", "general"],
       "source": {
         "desktop": {
           "16": "icons/desktop/extensions-16.svg"
         },
         "android": {
           "24": "icons/android/extensions-24.svg"
-        }
-      }
-    },
-    { "name": "Extensions",
-      "tags": [],
-      "categories": ["general"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/extensions-16.svg"
         }
       }
     },
@@ -731,17 +713,8 @@
       }
     },
     { "name": "Fullscreen",
-      "tags": ["full", "fullscreen", "screen"],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-16.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen",
       "tags": [],
-      "categories": ["media"],
+      "categories": ["content", "media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/fullscreen-16.svg"
@@ -749,17 +722,8 @@
       }
     },
     { "name": "Fullscreen Disabled",
-      "tags": ["full", "fullscreen", "screen", "disabled"],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-16-disabled.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen Disabled",
       "tags": [],
-      "categories": ["media"],
+      "categories": ["content", "media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/fullscreen-16-disabled.svg"
@@ -767,17 +731,8 @@
       }
     },
     { "name": "Fullscreen Exit",
-      "tags": ["full", "fullscreen", "exit"],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-exit-16.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen Exit",
       "tags": [],
-      "categories": ["media"],
+      "categories": ["content", "media"],
       "source": {
         "desktop": {
           "16": "icons/desktop/fullscreen-exit-16.svg"
@@ -812,7 +767,7 @@
       }
     },
     { "name": "Globe",
-      "tags": ["globe", "favicon", "website"],
+      "tags": ["favicon", "website"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -833,7 +788,7 @@
       }
     },
     { "name": "Help",
-      "tags": ["alert", "warning"],
+      "tags": ["warning"],
       "categories": ["alert"],
       "source": {
         "desktop": {
@@ -866,7 +821,7 @@
       }
     },
     { "name": "History Item",
-      "tags": ["history", "outline"],
+      "tags": ["outline"],
       "categories": ["new tab"],
       "source": {
         "desktop": {
@@ -932,7 +887,7 @@
       }
     },
     { "name": "Import",
-      "tags": ["import", "arrow"],
+      "tags": ["arrow"],
       "categories": ["new tab"],
       "source": {
         "desktop": {
@@ -959,7 +914,7 @@
       }
     },
     { "name": "Info",
-      "tags": ["info", "information", "policy"],
+      "tags": ["policy"],
       "categories": ["alert"],
       "source": {
         "desktop": {
@@ -971,7 +926,7 @@
       }
     },
     { "name": "Information",
-      "tags": ["info", "information", "policy"],
+      "tags": ["policy"],
       "categories": ["alert"],
       "source": {
         "desktop": {
@@ -1109,7 +1064,7 @@
       }
     },
     { "name": "Maximize",
-      "tags": ["maximize", "plus"],
+      "tags": ["plus"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1148,7 +1103,7 @@
       }
     },
     { "name": "Midi",
-      "tags": ["midi", "music", "note"],
+      "tags": ["music", "note"],
       "categories": ["permissions"],
       "source": {
         "desktop": {
@@ -1157,7 +1112,7 @@
       }
     },
     { "name": "Minimize",
-      "tags": ["minimize", "minus"],
+      "tags": ["minus"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1187,7 +1142,7 @@
       }
     },
     { "name": "Mouse Pointer",
-      "tags": ["mouse", "pointer", "cursor"],
+      "tags": ["cursor"],
       "categories": ["permissions"],
       "source": {
         "desktop": {
@@ -1232,7 +1187,7 @@
       }
     },
     { "name": "New",
-      "tags": ["new", "add", "tab"],
+      "tags": ["add", "tab"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1262,7 +1217,7 @@
       }
     },
     { "name": "Open",
-      "tags": ["open", "folder", "arrow"],
+      "tags": ["arrow", "folder"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1271,7 +1226,7 @@
       }
     },
     { "name": "Open In New",
-      "tags": ["new"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1322,7 +1277,7 @@
       }
     },
     { "name": "Paste",
-      "tags": ["paste", "clipboard"],
+      "tags": ["clipboard"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1349,7 +1304,7 @@
       }
     },
     { "name": "Performance",
-      "tags": ["performance"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1367,7 +1322,7 @@
       }
     },
     { "name": "Pin",
-      "tags": ["pin"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1379,7 +1334,7 @@
       }
     },
     { "name": "Pin Outline",
-      "tags": ["pin", "outline"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1391,7 +1346,7 @@
       }
     },
     { "name": "Pin Remove",
-      "tags": ["remove", "pin"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1419,16 +1374,7 @@
     },
     { "name": "Plugin",
       "tags": [],
-      "categories": ["extensions"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/plugin-16.svg"
-        }
-      }
-    },
-    { "name": "Plugin",
-      "tags": [],
-      "categories": ["permissions"],
+      "categories": ["extensions", "permissions"],
       "source": {
         "desktop": {
           "16": "icons/desktop/plugin-16.svg"
@@ -1463,7 +1409,7 @@
       }
     },
     { "name": "Pocket Remove",
-      "tags": ["remove", "pocket"],
+      "tags": [],
       "categories": ["reader"],
       "source": {
         "desktop": {
@@ -1472,7 +1418,7 @@
       }
     },
     { "name": "Popular",
-      "tags": ["popular", "trending", "trend"],
+      "tags": ["trend", "trending"],
       "categories": ["new tab"],
       "source": {
         "desktop": {
@@ -1499,7 +1445,7 @@
       }
     },
     { "name": "Preferences Macos",
-      "tags": ["macos", "mac", "settings", "options", "preferences"],
+      "tags": ["options", "settings"],
       "categories": ["general"],
       "source": {
         "desktop": {
@@ -1508,7 +1454,7 @@
       }
     },
     { "name": "Print",
-      "tags": ["print", "printer"],
+      "tags": [],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1518,19 +1464,7 @@
     },
     { "name": "Private browsing",
       "tags": [],
-      "categories": ["navigation"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/private-browsing-16.svg"
-        },
-        "android": {
-          "24": "icons/android/private-browsing-24.svg"
-        }
-      }
-    },
-    { "name": "Privatebrowsing",
-      "tags": [],
-      "categories": ["general"],
+      "categories": ["general", "navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/private-browsing-16.svg"
@@ -1589,7 +1523,7 @@
       }
     },
     { "name": "Redo",
-      "tags": ["redo", "arrow"],
+      "tags": ["arrow"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1610,7 +1544,7 @@
       }
     },
     { "name": "Reminders",
-      "tags": ["reminder", "snooze"],
+      "tags": ["snooze"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1637,7 +1571,7 @@
       }
     },
     { "name": "Restore Session",
-      "tags": ["restore", "sessions"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1673,7 +1607,7 @@
       }
     },
     { "name": "Save",
-      "tags": ["save", "folder", "arrow"],
+      "tags": ["arrow", "folder"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1700,7 +1634,7 @@
       }
     },
     { "name": "Screenshot",
-      "tags": ["screenshot", "grab"],
+      "tags": ["grab"],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -1718,17 +1652,8 @@
       }
     },
     { "name": "Search",
-      "tags": [],
-      "categories": ["extensions"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/search-16.svg"
-        }
-      }
-    },
-    { "name": "Search",
-      "tags": ["macOS", "mac"],
-      "categories": ["navigation"],
+      "tags": ["macOS"],
+      "categories": ["content", "extensions", "navigation"],
       "source": {
         "desktop": {
           "16": "icons/desktop/search-16.svg"
@@ -1747,20 +1672,8 @@
         }
       }
     },
-    { "name": "Search macOS",
-      "tags": [],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/search-16.svg"
-        },
-        "android": {
-          "24": "icons/android/search-24.svg"
-        }
-      }
-    },
     { "name": "Search Windows",
-      "tags": ["search", "windows"],
+      "tags": [],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -1800,7 +1713,7 @@
       }
     },
     { "name": "Send to Device",
-      "tags": ["send", "device", "sync"],
+      "tags": ["sync"],
       "categories": ["general"],
       "source": {
         "desktop": {
@@ -1809,7 +1722,7 @@
       }
     },
     { "name": "Settings",
-      "tags": ["settings", "preferences", "options"],
+      "tags": ["options", "preferences"],
       "categories": ["new"],
       "source": {
         "android": {
@@ -1848,7 +1761,7 @@
       }
     },
     { "name": "Stop",
-      "tags": ["stop", "x"],
+      "tags": ["x"],
       "categories": ["navigation"],
       "source": {
         "desktop": {
@@ -1878,7 +1791,7 @@
       }
     },
     { "name": "Sub Item",
-      "tags": ["sub", "item"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
@@ -2104,7 +2017,7 @@
       }
     },
     { "name": "Top Sites Outlined",
-      "tags": ["top site", "outline"],
+      "tags": [],
       "categories": ["new tab"],
       "source": {
         "desktop": {
@@ -2135,7 +2048,7 @@
       }
     },
     { "name": "Tracking Protection Disabled",
-      "tags": ["tracking", "protection", "disabled"],
+      "tags": [],
       "categories": ["security"],
       "source": {
         "desktop": {
@@ -2148,7 +2061,7 @@
       }
     },
     { "name": "Turbo Mode",
-      "tags": ["turbo"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "android": {
@@ -2157,7 +2070,7 @@
       }
     },
     { "name": "Turbo Mode Outline",
-      "tags": ["turbo", "outline"],
+      "tags": [],
       "categories": ["new"],
       "source": {
         "android": {
@@ -2184,7 +2097,7 @@
       }
     },
     { "name": "Undo",
-      "tags": ["undo", "arrow"],
+      "tags": ["arrow"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -2211,7 +2124,7 @@
       }
     },
     { "name": "Warning",
-      "tags": ["warn", "error", "warning", "attention"],
+      "tags": ["attention", "error"],
       "categories": ["alert"],
       "source": {
         "desktop": {
@@ -2259,7 +2172,7 @@
       }
     },
     { "name": "Zoom In",
-      "tags": ["zoom", "plus"],
+      "tags": ["plus"],
       "categories": ["content"],
       "source": {
         "desktop": {
@@ -2268,7 +2181,7 @@
       }
     },
     { "name": "Zoom Out",
-      "tags": ["zoom", "minus"],
+      "tags": ["minus"],
       "categories": ["content"],
       "source": {
         "desktop": {
