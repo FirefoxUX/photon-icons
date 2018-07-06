@@ -15,6 +15,7 @@ let prevname = "";
 
 const missing = [];
 const unseen = images.slice();
+const seen = [];
 const out_of_order = [];
 const bad_sizes = [];
 
@@ -70,6 +71,11 @@ for (let icon of icons) {
         missing.push(`${image} (from ${icon.name}.${source}.${size})`)
         continue nextImage;
       }
+      if (seen.indexOf(image) != -1) {
+        out_of_order.push(`Duplicate entries for ${image}!`);
+        continue nextImage;
+      }
+      seen.push(image);
 
       // check for the correct viewbox.
       let data = fs.readFileSync(image, "utf-8");
