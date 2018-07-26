@@ -594,15 +594,6 @@
         }
       }
     },
-    { "name": "Dock Undock",
-      "tags": [],
-      "categories": ["developer"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/dock-undock-16.svg"
-        }
-      }
-    },
     { "name": "Download",
       "tags": [],
       "categories": ["places"],
@@ -1919,15 +1910,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-network.svg"
-        }
-      }
-    },
-    { "name": "Tool Options",
-      "tags": ["deprecated"],
-      "categories": ["developer"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/tool-options-16.svg"
         }
       }
     },
