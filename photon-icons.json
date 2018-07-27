@@ -1435,12 +1435,12 @@
         }
       }
     },
-    { "name": "Preferences Macos",
+    { "name": "Preferences",
       "tags": ["options", "settings"],
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/preferences-16-macos.svg"
+          "16": "icons/desktop/preferences-16.svg"
         }
       }
     },
