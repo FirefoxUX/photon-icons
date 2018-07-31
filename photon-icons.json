@@ -594,15 +594,6 @@
         }
       }
     },
-    { "name": "Dock Undock",
-      "tags": [],
-      "categories": ["developer"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/dock-undock-16.svg"
-        }
-      }
-    },
     { "name": "Download",
       "tags": [],
       "categories": ["places"],
@@ -1444,12 +1435,12 @@
         }
       }
     },
-    { "name": "Preferences Macos",
+    { "name": "Preferences",
       "tags": ["options", "settings"],
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/preferences-16-macos.svg"
+          "16": "icons/desktop/preferences-16.svg"
         }
       }
     },
@@ -1919,15 +1910,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-tool-network.svg"
-        }
-      }
-    },
-    { "name": "Tool Options",
-      "tags": ["deprecated"],
-      "categories": ["developer"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/tool-options-16.svg"
         }
       }
     },
