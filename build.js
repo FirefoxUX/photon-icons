@@ -31,6 +31,11 @@ for (let image of images) {
     });
   } else if (image.indexOf('/android/') != -1) {
     console.log(image);
-    s2v.svg2vectorDrawableFile(image, image.replace('.svg', '.xml'));
-  }
+    let imageData = s2v.getFileContent(image);
+
+    let lightImage = s2v.svg2vectorDrawableContent(imageData.replace('context-fill', '#0c0c0d'), 'nodpi');
+    s2v.createFile(image.replace('.svg', '-light.xml'), lightImage, false);
+
+    let darkImage = s2v.svg2vectorDrawableContent(imageData.replace('context-fill', '#f9f9fa'), 'nodpi');
+    s2v.createFile(image.replace('.svg', '-dark.xml'), darkImage, false);  }
 }
