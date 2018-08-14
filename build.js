@@ -33,9 +33,9 @@ for (let image of images) {
     console.log(image);
     let imageData = s2v.getFileContent(image);
 
-    let lightImage = s2v.svg2vectorDrawableContent(imageData.replace('context-fill', '#0c0c0d'), 'nodpi');
+    let lightImage = s2v.svg2vectorDrawableContent(imageData.replace(/context-fill/g, '#0c0c0d'), 'nodpi');
     s2v.createFile(image.replace('.svg', '-light.xml'), lightImage, false);
 
-    let darkImage = s2v.svg2vectorDrawableContent(imageData.replace('context-fill', '#f9f9fa'), 'nodpi');
+    let darkImage = s2v.svg2vectorDrawableContent(imageData.replace(/context-fill/g, '#f9f9fa'), 'nodpi');
     s2v.createFile(image.replace('.svg', '-dark.xml'), darkImage, false);  }
 }
