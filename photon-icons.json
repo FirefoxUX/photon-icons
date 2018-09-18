@@ -140,7 +140,8 @@
           "24": "icons/ios/back-24.svg"
         },
         "android": {
-          "24": "icons/android/back-24.svg"
+          "24": "icons/android/back-24.svg",
+          "36": "icons/android/back-36.svg"
         }
       }
     },
@@ -699,7 +700,8 @@
           "16": "icons/desktop/forward-16.svg"
         },
         "android": {
-          "24": "icons/android/forward-24.svg"
+          "24": "icons/android/forward-24.svg",
+          "36": "icons/android/forward-36.svg"
         }
       }
     },
@@ -1320,7 +1322,8 @@
           "12": "icons/desktop/pin-12.svg"
         },
         "android": {
-          "24": "icons/android/pin-24.svg"
+          "24": "icons/android/pin-24.svg",
+          "36": "icons/android/pin-36.svg"
         }
       }
     },
@@ -1332,7 +1335,8 @@
           "16": "icons/desktop/pin-outline-16.svg"
         },
         "android": {
-          "24": "icons/android/pin-outline-24.svg"
+          "24": "icons/android/pin-outline-24.svg",
+          "36": "icons/android/pin-outline-36.svg"
         }
       }
     },
@@ -1530,7 +1534,8 @@
           "16": "icons/desktop/refresh-16.svg"
         },
         "android": {
-          "24": "icons/android/refresh-24.svg"
+          "24": "icons/android/refresh-24.svg",
+          "36": "icons/android/refresh-36.svg"
         }
       }
     },
@@ -1717,7 +1722,8 @@
       "categories": ["new"],
       "source": {
         "android": {
-          "24": "icons/android/preferences-24.svg"
+          "24": "icons/android/preferences-24.svg",
+          "36": "icons/android/preferences-36.svg"
         }
       }
     },
@@ -1759,7 +1765,8 @@
           "16": "icons/desktop/stop-16.svg"
         },
         "android": {
-          "24": "icons/android/stop-24.svg"
+          "24": "icons/android/stop-24.svg",
+          "36": "icons/android/stop-36.svg"
         }
       }
     },
@@ -1994,7 +2001,8 @@
           "16": "icons/desktop/top-sites-16.svg"
         },
         "android": {
-          "24": "icons/android/top-sites-24.svg"
+          "24": "icons/android/top-sites-24.svg",
+          "36": "icons/android/top-sites-36.svg"
         }
       }
     },
