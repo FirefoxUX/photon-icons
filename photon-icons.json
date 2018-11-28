@@ -1668,6 +1668,15 @@
         }
       }
     },
+    { "name": "Search Cancel",
+      "tags": [],
+      "categories": ["content", "extensions"],
+      "source": {
+        "desktop": {
+          "14": "icons/desktop/searchfield-cancel.svg"
+        }
+      }
+    },
     { "name": "Search History",
       "tags": ["deprecated"],
       "categories": ["places"],
