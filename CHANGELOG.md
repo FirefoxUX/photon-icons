@@ -1,5 +1,11 @@
 # Photon Icons Releases
 
+## [4.1.0] - 2018-09-18
+
+### Add
+
+* Add 36dp Android icons
+
 ## [4.0.0] - 2018-07-06
 
 ### Add
