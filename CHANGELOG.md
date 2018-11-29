@@ -1,5 +1,12 @@
 # Photon Icons Releases
 
+## [4.2.0] - 2018-11-29
+
+### Add
+
+* Add Android Cast icon
+* Add Android Remove icon
+
 ## [4.1.0] - 2018-09-18
 
 ### Add
