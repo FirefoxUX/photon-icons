@@ -6,6 +6,7 @@
 
 * Add Android Cast icon
 * Add Android Remove icon
+* Add Desktop Cancel icon
 
 ## [4.1.0] - 2018-09-18
 
