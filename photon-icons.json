@@ -205,6 +205,16 @@
         }
       }
     },
+    { "name": "Cancel",
+      "tags": [],
+      "categories": ["content", "extensions"],
+      "source": {
+        "desktop": {
+          "12": "icons/desktop/cancel-12.svg",
+          "16": "icons/desktop/cancel-16.svg"
+        }
+      }
+    },
     { "name": "Caption",
       "tags": ["deprecated"],
       "categories": ["media"],
@@ -1665,6 +1675,15 @@
         },
         "android": {
           "24": "icons/android/search-24.svg"
+        }
+      }
+    },
+    { "name": "Search Cancel",
+      "tags": [],
+      "categories": ["content", "extensions"],
+      "source": {
+        "desktop": {
+          "14": "icons/desktop/searchfield-cancel.svg"
         }
       }
     },
