@@ -215,11 +215,11 @@
       }
     },
     { "name": "Cast",
-      "tags": ["deprecated"],
+      "tags": ["youtube"],
       "categories": ["media"],
       "source": {
-        "desktop": {
-          "16": "icons/desktop/cast-16.svg"
+        "android": {
+          "24": "icons/android/cast-24.svg"
         }
       }
     },
@@ -1545,6 +1545,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/reminders-16.svg"
+        }
+      }
+    },
+    { "name": "Remove",
+      "tags": ["delete"],
+      "categories": ["content"],
+      "source": {
+        "android": {
+          "24": "icons/android/remove-24.svg"
         }
       }
     },
