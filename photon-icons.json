@@ -617,15 +617,6 @@
         }
       }
     },
-    { "name": "Edit",
-      "tags": ["pencil"],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/edit-16.svg"
-        }
-      }
-    },
     { "name": "Exit",
       "tags": ["deprecated"],
       "categories": ["reader"],
