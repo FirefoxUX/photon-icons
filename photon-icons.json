@@ -1904,6 +1904,15 @@
         }
       }
     },
+    { "name": "Tip",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/tip-16.svg"
+        }
+      }
+    },
     { "name": "Tool Debugger",
       "tags": ["deprecated"],
       "categories": ["developer"],
