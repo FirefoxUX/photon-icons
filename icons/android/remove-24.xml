@@ -8,5 +8,5 @@
         android:fillColor="#0C0C0D"
         android:fillAlpha=".8"
         android:fillType="evenOdd"
-        android:pathData="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM7 11a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2H7z"/>
+        android:pathData="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM7 11a1 1 0 100 2h10a1 1 0 100-2H7z"/>
 </vector>
