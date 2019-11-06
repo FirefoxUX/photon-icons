@@ -1952,6 +1952,15 @@
         }
       }
     },
+    { "name": "Toggle",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/toggle-16.svg"
+        }
+      }
+    },
     { "name": "Tool Debugger",
       "tags": ["deprecated"],
       "categories": ["developer"],
@@ -2219,6 +2228,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-webide.svg"
+        }
+      }
+    },
+    { "name": "What's new",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/whats-new-16.svg"
         }
       }
     },
