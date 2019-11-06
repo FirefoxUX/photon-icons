@@ -1,12 +1,10 @@
 # Photon Icons Releases
 
-## [4.2.0] - 2018-11-29
+## [5.0.0] - 2019-03-18
 
-### Add
+### Change
 
-* Add Android Cast icon
-* Add Android Remove icon
-* Add Desktop Cancel icon
+* Add a ton of icons. Remove some unused ones, too.
 
 ## [4.1.0] - 2018-09-18
 

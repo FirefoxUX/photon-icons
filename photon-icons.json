@@ -20,6 +20,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/accessibility-16.svg"
+        },
+        "android": {
+          "24": "icons/android/accessibility-24.svg"
         }
       }
     },
@@ -273,6 +276,15 @@
         }
       }
     },
+    { "name": "Collection",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "android": {
+          "24": "icons/android/collection-24.svg"
+        }
+      }
+    },
     { "name": "Command Console",
       "tags": [],
       "categories": ["developer"],
@@ -387,6 +399,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/cookies-16.svg"
+        },
+        "android": {
+          "24": "icons/android/cookies-24.svg"
         }
       }
     },
@@ -414,6 +429,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/cryptominers-16.svg"
+        },
+        "android": {
+          "24": "icons/android/cryptominers-24.svg"
         }
       }
     },
@@ -432,6 +450,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/customize-16.svg"
+        },
+        "android": {
+          "24": "icons/android/customize-24.svg"
         }
       }
     },
@@ -681,6 +702,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/fingerprinters-16.svg"
+        },
+        "android": {
+          "24": "icons/android/fingerprinters-24.svg"
         }
       }
     },
@@ -900,7 +924,7 @@
       }
     },
     { "name": "Import Export",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["places"],
       "source": {
         "desktop": {
@@ -983,15 +1007,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/link-16.svg"
-        }
-      }
-    },
-    { "name": "List",
-      "tags": ["deprecated"],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/list-16.svg"
+        },
+        "android": {
+          "24": "icons/android/link-24.svg"
         }
       }
     },
@@ -1001,6 +1019,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/location-16.svg"
+        },
+        "android": {
+          "24": "icons/android/location-24.svg"
         }
       }
     },
@@ -1055,6 +1076,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/login-16.svg"
+        },
+        "android": {
+          "24": "icons/android/login-24.svg"
         }
       }
     },
@@ -1094,6 +1118,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/microphone-16.svg"
+        },
+        "android": {
+          "24": "icons/android/microphone-24.svg"
         }
       }
     },
@@ -1208,6 +1235,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/notification-16.svg"
+        },
+        "android": {
+          "24": "icons/android/notification-24.svg"
         }
       }
     },
@@ -1322,6 +1352,15 @@
       "source": {
         "desktop": {
           "24": "icons/desktop/permissions-24.svg"
+        }
+      }
+    },
+    { "name": "Permissions",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "android": {
+          "24": "icons/android/permissions-24.svg"
         }
       }
     },
@@ -1483,6 +1522,10 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/preferences-16.svg"
+        },
+        "android": {
+          "24": "icons/android/preferences-24.svg",
+          "36": "icons/android/preferences-36.svg"
         }
       }
     },
@@ -1601,6 +1644,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/report-issues-16.svg"
+        },
+        "android": {
+          "24": "icons/android/report-issues-24.svg"
         }
       }
     },
@@ -1673,6 +1719,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/screenshot-16.svg"
+        },
+        "android": {
+          "24": "icons/android/screenshot-24.svg"
         }
       }
     },
@@ -1755,16 +1804,6 @@
         }
       }
     },
-    { "name": "Settings",
-      "tags": ["options", "preferences"],
-      "categories": ["new"],
-      "source": {
-        "android": {
-          "24": "icons/android/preferences-24.svg",
-          "36": "icons/android/preferences-36.svg"
-        }
-      }
-    },
     { "name": "Share",
       "tags": ["macOS"],
       "categories": ["general"],
@@ -1801,6 +1840,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/sidebar-left-16.svg"
+        }
+      }
+    },
+    { "name": "Sort",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/sort-16.svg"
         }
       }
     },
@@ -1910,6 +1958,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/tip-16.svg"
+        }
+      }
+    },  
+    { "name": "Toggle",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/toggle-16.svg"
         }
       }
     },
@@ -2138,6 +2195,9 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/video-recorder-16.svg"
+        },
+        "android": {
+          "24": "icons/android/video-recorder-24.svg"
         }
       }
     },
@@ -2177,6 +2237,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-webide.svg"
+        }
+      }
+    },
+    { "name": "What's new",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/whats-new-16.svg"
         }
       }
     },
