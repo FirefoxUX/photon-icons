@@ -924,7 +924,7 @@
       }
     },
     { "name": "Import Export",
-      "tags": ["deprecated"],
+      "tags": [],
       "categories": ["places"],
       "source": {
         "desktop": {
@@ -1010,15 +1010,6 @@
         },
         "android": {
           "24": "icons/android/link-24.svg"
-        }
-      }
-    },
-    { "name": "List",
-      "tags": ["deprecated"],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/list-16.svg"
         }
       }
     },
@@ -1849,6 +1840,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/sidebar-left-16.svg"
+        }
+      }
+    },
+    { "name": "Sort",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/sort-16.svg"
         }
       }
     },
