@@ -1952,6 +1952,15 @@
         }
       }
     },
+    { "name": "Tip",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/tip-16.svg"
+        }
+      }
+    },  
     { "name": "Toggle",
       "tags": [],
       "categories": ["new"],
