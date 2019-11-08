@@ -1,6 +1,6 @@
 {
   "name": "photon-icons",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "Icons for Firefox and related properties.",
   "scripts": {
     "test": "node validate.js",
