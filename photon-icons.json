@@ -1264,6 +1264,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
+          "12": "icons/desktop/open-in-new-12.svg",
           "16": "icons/desktop/open-in-new-16.svg"
         },
         "android": {
