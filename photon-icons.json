@@ -191,6 +191,15 @@
         }
       }
     },
+    { "name": "Briefcase",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/briefcase.svg"
+        }
+      }
+    },
     { "name": "Brightness",
       "tags": [],
       "categories": ["device"],
@@ -228,6 +237,15 @@
         }
       }
     },
+    { "name": "Cart",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/cart.svg"
+        }
+      }
+    },
     { "name": "Cast",
       "tags": ["youtube"],
       "categories": ["media"],
@@ -261,6 +279,24 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/check-16.svg"
+        }
+      }
+    },
+    { "name": "Chill",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/chill.svg"
+        }
+      }
+    },
+    { "name": "Circle",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/circle.svg"
         }
       }
     },
@@ -627,6 +663,15 @@
         }
       }
     },
+    { "name": "Dollar",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/dollar.svg"
+        }
+      }
+    },
     { "name": "Download",
       "tags": [],
       "categories": ["places"],
@@ -687,12 +732,30 @@
         }
       }
     },
+    { "name": "Fence",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/fence.svg"
+        }
+      }
+    },
     { "name": "Filter",
       "tags": ["deprecated"],
       "categories": ["developer"],
       "source": {
         "desktop": {
           "16": "icons/desktop/developer-filter.svg"
+        }
+      }
+    },
+    { "name": "Fingerprint",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/fingerprint.svg"
         }
       }
     },
@@ -735,6 +798,15 @@
         }
       }
     },
+    { "name": "Food",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/food.svg"
+        }
+      }
+    },
     { "name": "Forget",
       "tags": [],
       "categories": ["navigation"],
@@ -764,6 +836,15 @@
         "android": {
           "24": "icons/android/forward-24.svg",
           "36": "icons/android/forward-36.svg"
+        }
+      }
+    },
+    { "name": "Fruit",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/fruit.svg"
         }
       }
     },
@@ -809,6 +890,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/get-add-ons-16.svg"
+        }
+      }
+    },
+    { "name": "Gift",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/gift.svg"
         }
       }
     },
@@ -1361,6 +1451,15 @@
       "source": {
         "android": {
           "24": "icons/android/permissions-24.svg"
+        }
+      }
+    },
+    { "name": "Pet",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/pet.svg"
         }
       }
     },
@@ -1960,7 +2059,7 @@
           "16": "icons/desktop/tip-16.svg"
         }
       }
-    },  
+    },
     { "name": "Toggle",
       "tags": [],
       "categories": ["new"],
@@ -2144,6 +2243,15 @@
         }
       }
     },
+    { "name": "Tree",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/tree.svg"
+        }
+      }
+    },
     { "name": "Turbo Mode",
       "tags": [],
       "categories": ["new"],
@@ -2186,6 +2294,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/undo-16.svg"
+        }
+      }
+    },
+    { "name": "Vacation",
+      "tags": [],
+      "categories": ["container"],
+      "source": {
+        "desktop": {
+          "32": "icons/desktop/vacation.svg"
         }
       }
     },
