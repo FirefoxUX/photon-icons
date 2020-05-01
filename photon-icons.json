@@ -96,12 +96,30 @@
         }
       }
     },
-    { "name": "Audio Mute",
+    { "name": "Audio Muted",
       "tags": [],
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/audio-16-mute.svg"
+          "16": "icons/desktop/audio-muted-16.svg"
+        }
+      }
+    },
+    { "name": "Audio Muted Small",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/audio-muted-small-16.svg"
+        }
+      }
+    },
+    { "name": "Audio Small",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/audio-small-16.svg"
         }
       }
     },
@@ -1264,6 +1282,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
+          "12": "icons/desktop/open-in-new-12.svg",
           "16": "icons/desktop/open-in-new-16.svg"
         },
         "android": {
@@ -1414,6 +1433,15 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/play-16.svg"
+        }
+      }
+    },
+    { "name": "Play Small",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/play-small-16.svg"
         }
       }
     },
