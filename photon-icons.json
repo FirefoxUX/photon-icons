@@ -582,6 +582,15 @@
         }
       }
     },
+    { "name": "Device TV",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/device-tv-16.svg"
+        }
+      }
+    },
     { "name": "Device VR",
       "tags": [],
       "categories": ["new"],
