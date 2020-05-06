@@ -561,15 +561,15 @@
         }
       }
     },
-    { "name": "Device Mobile",
+    { "name": "Device Phone",
       "tags": [],
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/device-mobile-16.svg"
+          "16": "icons/desktop/device-phone-16.svg"
         },
         "android": {
-          "24": "icons/android/device-mobile-24.svg"
+          "24": "icons/android/device-phone-24.svg"
         }
       }
     },
@@ -579,6 +579,24 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/device-tablet-16.svg"
+        }
+      }
+    },
+    { "name": "Device TV",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/device-tv-16.svg"
+        }
+      }
+    },
+    { "name": "Device VR",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/device-vr-16.svg"
         }
       }
     },
@@ -1960,7 +1978,7 @@
           "16": "icons/desktop/tip-16.svg"
         }
       }
-    },  
+    },
     { "name": "Toggle",
       "tags": [],
       "categories": ["new"],
@@ -2219,15 +2237,6 @@
         },
         "android": {
           "24": "icons/android/warning-24.svg"
-        }
-      }
-    },
-    { "name": "Web VR",
-      "tags": [],
-      "categories": ["new"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/webvr-16.svg"
         }
       }
     },
