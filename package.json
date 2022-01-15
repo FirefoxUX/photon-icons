@@ -26,7 +26,7 @@
   "dependencies": {
     "jquery": "3.4.0",
     "jspdf": "1.4.1",
-    "shelljs": "0.8.2",
+    "shelljs": "0.8.5",
     "svg2vectordrawable": "1.1.10",
     "svgo": "1.0.5"
   }
